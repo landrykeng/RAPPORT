@@ -444,7 +444,8 @@ class StatisticalCommentator:
         return " ".join(insights)
 
 # Configuration Plotly pour export d'images
-pio.kaleido.scope.mathjax = None
+#pio.kaleido.scope.mathjax = None
+#fig.write_image("fig.png", engine="kaleido")
 
 # Fonction pour créer les dossiers de sortie
 def create_output_folders():
